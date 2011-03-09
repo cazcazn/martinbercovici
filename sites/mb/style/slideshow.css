@@ -1,0 +1,33 @@
+#slideshow {
+  position:relative;
+  width: 735px;
+  height: 700px;
+}
+
+#slideshow DIV {
+  position:absolute;
+  top:0;
+  left:0;
+  z-index:8;
+  opacity:0.0;
+  width: 735px;
+  height: 700px;
+  text-align: center;
+  background: #E7EDF4;
+}
+
+#slideshow DIV.active {
+  z-index:10;
+  opacity:1.0;
+}
+
+#slideshow DIV.last-active {
+    z-index:9;
+}
+
+#slideshow DIV IMG {
+    width: 735px;
+    display: block;
+    border: 0;
+    margin-bottom: 10px;
+}

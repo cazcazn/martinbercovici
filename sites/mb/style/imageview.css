@@ -1,0 +1,12 @@
+#frame {
+  position:relative;
+  width: 735px;
+  height: 100%;
+}
+
+#frame img {
+    width: 735px;
+    display: block;
+    border: 0;
+    margin-bottom: 10px;
+}
